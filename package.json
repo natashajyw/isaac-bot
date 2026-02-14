@@ -1,0 +1,22 @@
+{
+  "name": "isaac-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for The Binding of Isaac — item lookup and spindown dice checker",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": ["discord", "bot", "binding-of-isaac"],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
